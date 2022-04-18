@@ -39,6 +39,11 @@ Atalhos aprendidos no curso "LINUX I: CONHECENDO E UTILIZANDO O TERMINAL"
   - Mover:
     - `mv <arquivo> <diretorio/>`
     - `mv <arquivo> <diretorio/arquivo2>` (Movendo e trocando nome do arquivo)
+#### Compactar diretórios
+  - ZIP
+    - `zip -r <nomeDiretorioZipado.zip> <diretorio>`
+  - UNZIP
+    - `unzip <nomeDiretorioZipado.zip>`
   
 ### Arquivo de texto
 - Criar arquivo:
