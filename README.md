@@ -27,10 +27,18 @@ Atalhos aprendidos no curso "LINUX I: CONHECENDO E UTILIZANDO O TERMINAL"
   - `cd ..` (Cada ponto é um diretório anterior)
   - `cd ~` (Volta para home/<usuario>)
   - `cd /` (Volta para raiz)  
-#### Apagar diretório e arquivos
+#### Apagar diretórios e arquivos
   - `rmdir <diretório>`
   - `rm arquivo.txt`
   - `rm -r <diretório>` (Parametro -r necessário para apagar de forma recursiva caso diretório não esteja vazio)
+#### Manipular diretórios e arquivos
+  - Copiar:    
+    - `cp <arquivo> <arquivo2>`
+    - `cp <arquivo> <diretorio/arquivo>`
+    - `cp -r <diretorio> <diretorio2>` (parametro -r necessário em cso de diretório)
+  - Mover:
+    - `mv <arquivo> <diretorio/>`
+    - `mv <arquivo> <diretorio/arquivo2>` (Movendo e trocando nome do arquivo)
   
 ### Arquivo de texto
 - Criar arquivo:
@@ -43,7 +51,14 @@ Atalhos aprendidos no curso "LINUX I: CONHECENDO E UTILIZANDO O TERMINAL"
 - CAT
   - `cat arquivo.txt`
   - `cat -n arquivo.txt` (Mostra o numero de linhas)
+- HEAD
+  - `head -n <n_de_linhas> arquivo.txt` (Apresenta cabeçalho do texto e paramtro n para mostrar o numero de linhas)
+- TAIL
+  - `tail -n <n_de_linhas> arquivo.txt` (Apresenta rodapé do texto e paramtro n para mostrar o numero de linhas)
+- LESS
+  - ` less arquivo.txt` (Navega pelo texto)
 - VI
-  - `vi arquivo.txt`
+  - `vi arquivo.txt` (Abre o arquivo no terminal onde consegue adicionar ou remover clicando em "i" no teclado. Para sair da interação basta clicar em "esc". Para fechar ":wq" onde o "w" Salva e o "q" sai)
+  
   
   
